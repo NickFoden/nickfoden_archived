@@ -38,19 +38,19 @@ const About: React.FC = () => (
             <div className="post-content">
               <p> Brooklyn, NY</p>
               <br />
-              <a href="https://nickis.online/" target="_blank">
+              <a href="https://nickis.online/" target="_blank" rel="noopener noreferrer">
                 https://nickis.online/
               </a>
               <br />
-              <a href="https://foden.dev/" target="_blank">
+              <a href="https://foden.dev/" target="_blank" rel="noopener noreferrer">
                 https://foden.dev/
               </a>
               <br />
-              <a href="http://about.me/NickFoden" target="_blank">
+              <a href="http://about.me/NickFoden" target="_blank" rel="noopener noreferrer">
                 http://about.me/NickFoden
               </a>
               <br />
-              <a href="https://kirieelite32.com/" target="_blank">
+              <a href="https://kirieelite32.com/" target="_blank" rel="noopener noreferrer">
                 https://kirieelite32.com/
               </a>
               <br />

@@ -110,7 +110,9 @@ const IndexPage: React.FC<IndexProps> = props => {
           content={`${config.siteUrl}${props.data.header.childImageSharp.fluid.src}`}
         />
         {config.facebook && <meta property="article:publisher" content={config.facebook} />}
-        {config.googleSiteVerification && <meta name="google-site-verification" content={config.googleSiteVerification} />}
+        {config.googleSiteVerification && (
+          <meta name="google-site-verification" content={config.googleSiteVerification} />
+        )}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={config.title} />
         <meta name="twitter:description" content={config.description} />
@@ -169,7 +171,10 @@ const IndexPage: React.FC<IndexProps> = props => {
           </div>
         </main>
         {props.children}
-        <Pagination currentPage={props.pageContext.currentPage} numPages={props.pageContext.numPages} />
+        <Pagination
+          currentPage={props.pageContext.currentPage}
+          numPages={props.pageContext.numPages}
+        />
         <Footer />
       </Wrapper>
     </IndexLayout>
@@ -180,7 +185,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+    logo: file(relativePath: { eq: "img/NickFoden.png" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
@@ -199,9 +204,9 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC },
-      filter: { frontmatter: { draft: { ne: true } } },
-      limit: $limit,
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { draft: { ne: true } } }
+      limit: $limit
       skip: $skip
     ) {
       edges {

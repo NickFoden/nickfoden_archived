@@ -90,8 +90,8 @@ const Footer: React.FC = () => {
             </a>
           )}
 
-          <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
-            Ghost
+          <a href="https://github.com/NickFoden" target="_blank" rel="noopener noreferrer">
+            Github
           </a>
 
           <a href="/rss.xml">RSS</a>
