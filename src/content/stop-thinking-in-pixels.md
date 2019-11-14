@@ -9,4 +9,4 @@ tags:
   - CSS
 ---
 
-`youtube:https://www.youtube.com/embed/XanhwddQ-PM`
+`video: https://www.youtube.com/embed/XanhwddQ-PM`
