@@ -50,11 +50,11 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Nick Foden',
-  description: 'Developer currently living in Brooklyn',
+  description: 'Brooklyn currently, yet mind in the cloud',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/NickFoden.png',
   lang: 'en',
-  siteUrl: 'https://gatsby-casper.netlify.com',
+  siteUrl: 'https://nickfoden.com',
   facebook: 'https://www.facebook.com/nickfoden',
   twitter: 'https://twitter.com/nickfoden',
   showSubscribe: true,
