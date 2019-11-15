@@ -13,7 +13,7 @@ tags:
   - React
 ---
 
-Few months back I learned of a new database ( [FaunaDB](https://docs.fauna.com/fauna/current/introduction) ) that captured my imagination. Native support for GraphQL with a flexible data model: relational, document or graph. Excited to try it out I kept spinning up [`create-react-app`](https://github.com/facebook/create-react-app) to make different projects trying out Fauna. I was copy pasting the same CRUD functions that I had written over and over to reuse in each new project. Then attending a [useReactNYC](https://usereact.nyc/) meetup, [Monica's](https://twitter.com/waterproofheart) talk on saving time using [Plop JS](https://plopjs.com/) and othe tools came at a perfect time! Instead of copy pasting the same files/folders over and over for each new route or feature. You can run a command in your CLI, answer a few (or many) questions and add files or folder structure to your project. Generate whatever you want. This was a revelation.
+Few months back I learned of a new database ( [FaunaDB](https://docs.fauna.com/fauna/current/introduction) ) that captured my imagination. Native support for GraphQL with a flexible data model: relational, document or graph. Excited to try it out I kept spinning up [`create-react-app`](https://github.com/facebook/create-react-app) to make different projects trying out Fauna. I was copy pasting the same CRUD functions that I had written over and over to reuse in each new project. Then attending a [useReactNYC](https://usereact.nyc/) meetup, [Monica's](https://twitter.com/waterproofheart) talk on saving time using [Plop JS](https://plopjs.com/) and other tools came at a perfect time! Instead of copy pasting the same files/folders over and over for each new route or feature. You can run a command in your CLI, answer a few (or many) questions and add files or folder structure to your project. Generate whatever you want. This was a revelation.
 
 ```javascript
 npm run plop
@@ -37,7 +37,7 @@ import DownArrow from '../assets/ARROW-DOWN.svg';
 
 This is just one hypothetical folder and files I made up. You can set up more questions, customize the folders and file output to match whatever you and your team uses.
 
-I set up plop to generate a Fauna boilerplate file for me with some reusable functions:
+Excited to save time and reuse my Fauna functions I set up plop to generate a Fauna boilerplate file for me with some reusable functions:
 
 ```javascript
 const addNewCollection = async (newCollection: string) => {
@@ -52,9 +52,9 @@ const addNewCollection = async (newCollection: string) => {
 
 https://github.com/NickFoden/fauna-plop
 
-This worked great, but was the wrong move. Plop makes more sense when you can use it over and over in the same project. Plop can be customized and help teams with consistency in naming and folder structure. Plop deems itself a “micro-generator framework”. If you find yourself copy pasting structure a lot within a project [Plop JS](https://plopjs.com/) is a great tool.
+This worked great, but was the wrong move. Plop makes more sense to me when you can use it over and over in the same project, really great tool to aid teams in consistency with naming and folder structure.
 
-But what I really wanted to do was be able to spin up a new React App with Fauna already integrated into the project. Instead of having to install and run plop or copy paste my boilerplate Fauna files.
+What I realized I really wanted to do was to be able to spin up a new React App with Fauna already integrated into the project. Instead of having to install and run plop or copy paste my boilerplate Fauna files.
 
 [`create-react-app`](https://github.com/facebook/create-react-app) is the one line command de facto start a react project CLI tool. I jumped into the issues, the repo, stack overflow, looking at ways to customize CRA to include `faunadb` as dependency and add some of my own files to the initial structure template:
 
