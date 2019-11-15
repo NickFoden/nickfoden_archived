@@ -4,11 +4,11 @@ title: Customizing CRA
 image: img/CRALoaded.png
 author: NickFoden
 draft: false
-date: 2019-11-15T10:00:00.000Z
+date: 2019-09-15T10:00:00.000Z
 tags:
+  - CreateReactApp
   - FaunaDB
   - PlopJS
-  - CreateReactApp
   - CRA
   - React
 ---
