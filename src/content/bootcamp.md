@@ -10,7 +10,7 @@ tags:
   - Bootcamp
 ---
 
-Are you thinking about taking the next step of enrolling with a bootcamp program? I went through one and have been advising folks who are looking to get started. As I keep relaying similar information I think it is time to share some thoughts.
+Are you thinking about taking the next step of enrolling with a bootcamp program? I went through one and have been advising folks who are looking to get started.
 
 You can level up your chops before starting so you hit the ground running a few steps ahead and get more bang for your buck. At the bootcamp you will have access to the curriculum, office hours/group discussion, maybe group work and to mentorship. The mentorship will be invaluable, helping you develop techniques for debugging, alerting you to inefficient patterns and much more.
 
