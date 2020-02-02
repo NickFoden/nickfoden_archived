@@ -14,7 +14,7 @@ Are you thinking about taking the next step of enrolling with a bootcamp program
 
 You can level up your chops before starting so you hit the ground running a few steps ahead and get more bang for your buck. At the bootcamp you will have access to the curriculum, office hours/group discussion, maybe group work and to mentorship. The mentorship will be invaluable, helping you develop techniques for debugging, alerting you to inefficient patterns and much more.
 
-Rather than spending thats mentorship time with learning html, ide setup, JavaScript's reserved words, css basics, etc. Use the time now before starting the bootcamp to level yourself up so you can really make use of the mentor's time.
+Rather than spending that mentorship time with standard stuff like learning html, ide setup, JavaScript's reserved words, css basics, etc. Use this time now before starting the bootcamp to level yourself up, so you can really make use of the mentor's time.
 
 Build a few simple sites now, play around with html and css, get used to [git.](https://try.github.io/)
 
