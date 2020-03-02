@@ -9,7 +9,7 @@ tags:
   - Css
 ---
 
-How to improve your css skills. . . simple just build a hundred projects. (Do something for 10,000 hours to become world class at it right?)
+How to improve your css skills. . . simple, just build a hundred projects. (Do something for 10,000 hours to become world class at it right?)
 
 Well not quite. I mean yes definitely have to build things and practice to improve, but It's tempting to spin up another repo and get going on starting a project where you plan to use new styles 'This time Emotion!" or "Yay Tailwind!" and while that time spent setting up feels productive and the promise of something new from a blank slate is alluring, I'd argue that it would be a more effective use of your time to head over to <a href="https://codepen.io/search/pens?q=button" target="_blank" rel="noopener noreferrer" title="Buttons on codepen" >code pen and make a sweet button</a> or a <a href="https://codepen.io/lynnandtonic/pen/NWWmzjr" target="_blank" rel="noopener noreferrer" title="Single div CSS Tesla Cybertruck A PEN BY Lynn Fisher" >Tesla Truck from a single div</a>. Take one piece and focus on that and look at examples and use the dev tools to inspect elements on a site where you envy the styling and then use those styles to build knock offs and expand your styles for a form or a header etc.
 
