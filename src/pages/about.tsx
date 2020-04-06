@@ -39,8 +39,7 @@ const About: React.FC = () => (
               <p>
                 Born and raised in Mountain View, CA (Before google took over the town), I went to
                 html summer camps at Stanford as a kid and I have always been messing around on
-                computers. I attended college in San Francisco, and was tweaking websites for
-                friends and landing pages for different social networks. After college I moved to
+                computers. I attended college in San Francisco, and then after college I moved to
                 NYC to be closer to family. I soon found a job with a design firm and absorbed more
                 and more of their IT and accounting workload, enabling the firm to let go of IT
                 contracts and consolidate the firm's backend needs.
