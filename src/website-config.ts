@@ -15,6 +15,14 @@ export interface WebsiteConfig {
   /**
    * full url, no username
    */
+  github?: string;
+  /**
+   * full url, no username
+   */
+  linkedin?: string;
+  /**
+   * full url, no username
+   */
   facebook?: string;
   /**
    * full url, no username
@@ -57,6 +65,8 @@ const config: WebsiteConfig = {
   siteUrl: 'https://nickfoden.com',
   facebook: 'https://www.facebook.com/nickfoden',
   twitter: 'https://twitter.com/nickfoden',
+  github: 'https://github.com/NickFoden',
+  linkedin: 'https://www.linkedin.com/in/nickfoden/',
   showSubscribe: true,
   mailchimpAction:
     'https://gmail.us20.list-manage.com/subscribe/post?u=ba663dfd0691a578ae30cb379&amp;id=a0fb5ad685',
