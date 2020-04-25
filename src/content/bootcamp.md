@@ -8,6 +8,7 @@ date: 2020-02-02T10:00:00.000Z
 tags:
   - JavaScript
   - Bootcamp
+  - Coding
 ---
 
 Are you thinking about taking the next step of enrolling with a bootcamp program? I went through one and have been advising folks who are looking to get started.

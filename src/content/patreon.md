@@ -9,6 +9,7 @@ tags:
   - JavaScript
   - Patreon
   - Mentorship
+  - Coding
 ---
 
 https://www.patreon.com/NickFoden - It begins!
