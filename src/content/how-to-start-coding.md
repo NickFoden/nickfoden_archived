@@ -14,7 +14,7 @@ tags:
 
 #Start coding today
 
-Thrown down \$20K for 10 weeks at a coding bootcamp and then work at Amazon making \$250K a year as a senior engineer.
+Throw down \$20K for 10 weeks at a coding bootcamp and then work at Amazon making \$250K a year as a senior engineer.
 
 Simple.
 
