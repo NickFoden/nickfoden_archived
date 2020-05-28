@@ -151,7 +151,7 @@ class SiteNav extends React.Component<SiteNavProps> {
             {config.github && (
               <a
                 css={SocialLink}
-                href={config.twitter}
+                href={config.github}
                 title="Github"
                 target="_blank"
                 rel="noopener noreferrer"
