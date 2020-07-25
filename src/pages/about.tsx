@@ -72,8 +72,8 @@ const About: React.FC = () => (
               </p>
               <br />
               Projects:{' '}
-              <a href="https://nickis.online/" target="_blank" rel="noopener noreferrer">
-                https://nickis.online/
+              <a href="https://nickfoden.dev/" target="_blank" rel="noopener noreferrer">
+                https://nickfoden.dev/
               </a>
               <br />
               Blogging with my Cousins:{' '}
