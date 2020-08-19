@@ -43,11 +43,11 @@ Check your local region. Search the web, you will find a few languages standout 
 
 Check out bootcamps in your area/remote camps and see what their curriculum consists of. Take a page out of their book, they are teaching the language most in demand in the region more than likely. I would assume you will find React and Node and MongoDB, but check your region. Markets are different. You might want to study the most in demand language for your area to increase your odds of finding work.
 
-Choose one language, go deep on that one. Tempting to learn a few or browse around, but ultimately understanding one language more completely will enable you to more easily pick up another language in the future.
+Maybe checkout a few languages and try a few hello world youtubes and do some comparing and see what you like and the suggst to stick with one and go deep on that one. Tempting to learn a few, but at first maybe keep focus on and work to ultimately understand one language more completely. And knowing one well, will also enable you to more easily pick up another language in the future.
 
 Free Resources:
 
-- [Join ExploreJS](https://explorejs.com/#/sundaysessions '(target|_blank)') - Pop in on Sundays I'm online to screen share and help debug
+- [Join ExploreJS](https://explorejs.com/#/sundaysessions '(target|_blank)') - Pop in on Sundays and Wednesdays I'm online to screen share and help debug
 - [MDN Docs for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [MDN Docs for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Free Code Camp (can't recommend this enough](https://www.freecodecamp.org/)
