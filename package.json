@@ -27,7 +27,6 @@
     "gatsby-plugin-canonical-urls": "2.1.2",
     "gatsby-plugin-emotion": "4.1.2",
     "gatsby-plugin-feed": "2.3.5",
-    "gatsby-plugin-google-analytics": "2.1.4",
     "gatsby-plugin-postcss": "2.1.2",
     "gatsby-plugin-react-helmet": "3.1.2",
     "gatsby-plugin-sharp": "^2.8.0",
