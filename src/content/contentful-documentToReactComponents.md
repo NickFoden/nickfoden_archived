@@ -28,7 +28,7 @@ When building an app or platform, 100% recommend integrating a cms and Contentfu
 }
 ```
 
-But next we need blog posts, privacy policy, terms of service and this longer text of course hase to be formatted. You could make "paragraph1", "paragraph2" and have multiple simple text and this is straightforward, but tedious. Enter the Contentful rich text field type you can add to your content and now we have a problem. How do we take this nested output and render it out with the expected formatting.
+But next we need blog posts, privacy policy, terms of service and this longer text of course has to be formatted. You could make "paragraph1", "paragraph2" and have multiple simple text and this is straightforward, but tedious. Enter the Contentful rich text field type you can add to your content and now we have a problem. How do we take this nested output and render it out with the expected formatting.
 
 ![Image of console log of large object](img/privacy_rich_text.png)
 
