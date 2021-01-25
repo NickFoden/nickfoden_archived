@@ -13,8 +13,6 @@ tags:
 
 #Volta is the best Node version manager
 
-\*this is my opinion
-
 (also great to manage versions for rest of your teams toolchain - Yarn, etc)
 
 [https://volta.sh/](https://volta.sh/)
