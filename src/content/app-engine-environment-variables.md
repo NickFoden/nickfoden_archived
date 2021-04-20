@@ -73,7 +73,7 @@ steps:
     timeout: "1600s"
 ```
 
-So this cloudbuild file has some default stuff, but also i added the `env` values. So this is what we want to swap in a build time. And Cloud Build will require you name your env variables starting with an underscore `_A_VALUE`. 
+So this cloudbuild file has some default stuff, but also i added the `env` values. So this is what we want to swap in at build time. And Cloud Build will require you name your env variables starting with an underscore `_A_VALUE`. 
 
 And quick note that you can see in the cloudbuild file i added a first step and i named it node, which could be improved, but the args are important `run create-env` and so in my `package.json` this will use `printenv` to print the environment variables to a file `.env` before building the project. 
 
@@ -87,7 +87,7 @@ And quick note that you can see in the cloudbuild file i added a first step and 
     "validate": "tsc --noEmit"
   },
 ```
-Notice the `gcp-build` script in my package file as well. This is the script that GCP will run to build your app. 
+Notice the `gcp-build` script in my package file as well. This is an important script that GCP will run to build your app. 
 
 So now you can go to your cloud build job in the gcp console and setup your `.env` vars for prod and cloud build will add a `.env` file to your project when building with the variables. 
 
