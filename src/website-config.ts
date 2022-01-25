@@ -58,7 +58,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Nick Foden',
-  description: `Push those walls back 🤘😎🤘`,
+  description: 'Push those walls back 🤘😎🤘',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/NickFoden.png',
   lang: 'en',
