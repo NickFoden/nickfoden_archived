@@ -93,4 +93,4 @@ So now you can go to your cloud build job in the gcp console and setup your `.en
 
 This is the first draft of this post. Thinking to use some more examples of screenshots of the gcp cloud console, but need to setup an example project that i don't mind exposing first. 
 
-Any questions hit me up, also i can configure your build pipeline for $$$ lol. This was an annoying thing, but once i discovered `printenv` command it all clicked. 
+Any questions hit me up, also i can configure your build pipeline for $ :-). This was an annoying thing, but once i discovered `printenv` command it all clicked. 
