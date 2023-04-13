@@ -1,0 +1,16 @@
+{
+    "prettier.enable": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.words": ["foden"],
+    "python.terminal.activateEnvironment": false,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.tsdk": "node_modules/typescript/lib"
+  }
+  
