@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import { findPostBySlug } from "../src/common";
+import DisplayContent from "../src/components/DisplayContent";
 
 const about = () => {
-  return (
-    <div>about</div>
-  )
-}
+  const content = findPostBySlug("about");
+  return <DisplayContent content={content} />;
+};
 
-export default about
+export default about;

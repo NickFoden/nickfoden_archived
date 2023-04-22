@@ -1,11 +1,17 @@
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { ChakraProvider } from "@chakra-ui/react";
+import { Box, ChakraProvider } from "@chakra-ui/react";
+import Header from "../src/components/Header";
+import Footer from "../src/components/Footer";
 
 const App = ({ Component, pageProps }: AppProps) => (
   <>
     <ChakraProvider>
-      <Component {...pageProps} />
+      <Header />
+      <Box minH="90vh" backgroundColor=" ">
+        <Component {...pageProps} />
+      </Box>
+      <Footer />
     </ChakraProvider>
   </>
 );

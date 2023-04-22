@@ -1,8 +1,11 @@
-import Head from 'next/head'
+import Head from "next/head";
+import { Posts } from "../src/content";
+import DisplayPreview from "../src/components/DisplayPreview";
+import { Box } from "@chakra-ui/react";
+import Intro from "../src/components/Intro";
 
-
-
-export default function Home() {
+const Home = () => {
+  const data = Posts;
   return (
     <>
       <Head>
@@ -11,8 +14,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     <main>
-    </main>
+      <main>
+        <Box display="flex" margin={8} flexWrap="wrap">
+          {data.map((content) => (
+            <DisplayPreview key={content.slug} content={content} />
+          ))}
+        </Box>
+      </main>
     </>
-  )
-}
+  );
+};
+
+export default Home;
