@@ -1,11 +1,18 @@
+import React, { useState } from "react";
+import { Link } from "@chakra-ui/next-js";
 import { Box, Heading, Text } from "@chakra-ui/react";
 import { Content } from "../types";
-import { Link } from "@chakra-ui/next-js";
+import { calculateReadingTime } from "../common";
 
 const DisplayPreview = ({ content }: { content: Content | undefined }) => {
   if (!content) {
     return null;
   }
+
+  const [state] = useState({
+    readingTime: calculateReadingTime(content.data),
+  });
+
   const { slug, tags, title, thumbNail } = content;
   return (
     <Box display="flex" flexDirection="column">
@@ -17,7 +24,12 @@ const DisplayPreview = ({ content }: { content: Content | undefined }) => {
       <Link href={`/posts/${slug}`}>
         <Heading>{title}</Heading>
       </Link>
-      <Text>{tags.map((t) => t).join(", ")}</Text>
+      <Box padding={4}>
+        <Text fontStyle="italic">{tags.map((t) => t).join(", ")}</Text>
+      </Box>
+      <Text color="gray" fontSize={12}>
+        {state.readingTime} MIN READ
+      </Text>
     </Box>
   );
 };

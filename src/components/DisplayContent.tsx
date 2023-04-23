@@ -1,8 +1,8 @@
+import Head from "next/head";
+import { useRouter } from "next/router";
+import { Link } from "@chakra-ui/next-js";
 import { Box, Heading, Text } from "@chakra-ui/react";
 import { Content } from "../types";
-import { useRouter } from "next/router";
-import Head from "next/head";
-import { Link } from "@chakra-ui/next-js";
 
 const DisplayContent = ({ content }: { content: Content | undefined }) => {
   const router = useRouter();

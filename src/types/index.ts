@@ -15,7 +15,7 @@ interface ContentParagraph {
   text: string;
 }
 
-type ContentItem = ContentImage | ContentParagraph | ContentHeading;
+export type ContentItem = ContentImage | ContentParagraph | ContentHeading;
 
 export interface Content {
   data: ContentItem[];
