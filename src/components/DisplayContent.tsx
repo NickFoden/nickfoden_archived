@@ -39,14 +39,16 @@ const DisplayContent = ({ content }: { content: Content | undefined }) => {
             }
             if (item.type === "p") {
               return (
-                <Box maxW={500} margin="0 auto 8px">
-                  <Text key={index}>{item.text}</Text>
+                <Box maxW={500} margin="0 auto 16px">
+                  <Text key={index}>
+                    &nbsp; &nbsp; &nbsp; &nbsp;{item.text}
+                  </Text>
                 </Box>
               );
             }
           })}
         </Box>
-        <Box margin="0 auto">
+        <Box margin="16px auto 32px">
           <Link color="cornflowerblue" href="/" textDecoration="underline">
             Back to Home
           </Link>
